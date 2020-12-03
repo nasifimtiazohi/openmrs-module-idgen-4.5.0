@@ -63,7 +63,7 @@
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
-            <version>4.2</version>
+            <version>4.5.13</version>
             <type>jar</type>
             <scope>compile</scope>
             <exclusions>
@@ -214,7 +214,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+										<ignore/>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -235,7 +235,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore />
+										<ignore/>
 									</action>
 								</pluginExecution>
 							</pluginExecutions>
@@ -340,7 +340,7 @@
                             <vulas.reach.timeout>60</vulas.reach.timeout>
 
                             
-                            <vulas.report.exceptionExcludeBugs />
+                            <vulas.report.exceptionExcludeBugs/>
                             <vulas.report.reportDir>${project.build.directory}/vulas/report</vulas.report.reportDir>
                         </layeredConfiguration>
                     </configuration>
